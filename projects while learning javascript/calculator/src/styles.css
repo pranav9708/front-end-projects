@@ -1,0 +1,64 @@
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  width: auto;
+  height: 470px;
+  background-color: rgb(170, 167, 167);
+}
+
+.container * {
+  text-align: center;
+}
+
+#heading {
+  background-color: black;
+  color: white;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 5px;
+}
+
+#display {
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 5px;
+  background-color: rgb(232, 231, 231);
+  height: 125px;
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: end;
+}
+
+.icons .col {
+  background-color: white;
+  height: 50px;
+  margin: 2px;
+}
+.icons .col-6 {
+  background-color: white;
+  margin: 2px;
+  width: 49.5%;
+  height: 50px;
+}
+
+#red {
+  background-color: rgb(170, 4, 4);
+}
+
+#icon-container {
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 15px;
+}
+
+#icon-container .col:hover {
+  background-color: rgb(189, 177, 9);
+  box-shadow: 2px 2px 2px 2px grey;
+}
+
+#icon-container .col-6:hover {
+  background-color: rgb(189, 177, 9);
+  box-shadow: 2px 2px 2px 2px grey;
+}

@@ -1,0 +1,13 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.toogle {
+  position: relative;
+  left: 40%;
+}
+
+body * {
+  margin: 15px;
+}
